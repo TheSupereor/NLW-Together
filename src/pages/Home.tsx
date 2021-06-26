@@ -38,6 +38,11 @@ export function Home(){
             return;
         }
 
+        if(roomRef.val().endedAt){          //verifica se possui uma data de fechamento
+            alert('Room already closed');
+            return;
+        }
+
         history.push(`/room/${roomCode}`);      //leva o usuário para a sala
     }
 
