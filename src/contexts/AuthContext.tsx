@@ -27,6 +27,8 @@ export function AuthContextProvider(props: AuthContextProviderProps){
     //para que assim ele não fique "ouvindo" mesmo após realizar o que devia, para isso retornamos um unsubscribe
     //ou uma função que te "retira" do event listener
 
+    //com o código abaixo é possível pegar informações que já foram obtidas anteriormente
+    //mesmo após recarregar ou sair da página
     const unsubscribe = auth.onAuthStateChanged( user => {    //monitora a mudança de estado do usuário
       if (user){      //se houver um usuário já logado ele pega as informações e as atribui
         const { displayName, photoURL, uid} = user;
