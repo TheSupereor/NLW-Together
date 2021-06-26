@@ -95,6 +95,8 @@ export function Room(){
                             key={question.id}       //ao percorrer um array e voltar uma listagem o react pede uma chave única para diferenciar cada componente
                             content={question.content}
                             author={question.author} 
+                            isAnswered={question.isAnswered}
+                            isHighlighted={question.isHighLighted}
                             >
 
                                 <button 
