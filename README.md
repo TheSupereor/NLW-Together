@@ -1,46 +1,60 @@
-# Getting Started with Create React App
+<h1 align="center">
+    <a href="https://pt-br.reactjs.org/">🔗 Trilha: React</a>
+  <hr>
+    <p align="center">Aplicativo: LetMeAsk</p>
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div display="inline-content">
+  <img src="https://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge&logo=ghost"/>
+  <img src="https://img.shields.io/static/v1?label=PRs&message=Welcome&color=darkgreen&style=for-the-badge&logo=acclaim"/>
+</div>
 
-## Available Scripts
+<br>
 
-In the project directory, you can run:
+<p align="center">
+ <a href="#objetivo">Objetivo</a> •
+ <a href="#features">Features</a> • 
+ <a href="#banner">Banner</a> • 
+ <a href="#tecnologias">Tecnologias</a> • 
+ <a href="#licenc-a">Licença</a> • 
+ <a href="#autor">Autor</a>
+</p>
 
-### `yarn start`
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h4 align="center"> 
+	🚧  Status: 🚀 Pode melhorar  🚧
+</h4>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<h3 id="objetivo">
+   <p>🚀 Objetivo: <br> -Treinar fundamentos e conhecimentos em React, utilizando Typescript, Firebase e Scss.</p>
+</h3>
 
-### `yarn test`
+<hr>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### ⚙Features
 
-### `yarn build`
+- [x] Criação de salas
+- [x] Visão diferente entre usuários e admins
+- [x] Criação de perguntas
+- [ ] Caixa de resposta
+- [ ] Banner de sala
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<hr>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<h1 align="center" id="banner">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./src/assets/images/banner.png" />
+</h1>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<hr>
 
-### `yarn eject`
+### 🛠 Tecnologias
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+As seguintes ferramentas foram usadas na construção do projeto:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [React](https://pt-br.reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Yarn](https://yarnpkg.com/)
+- [Firebase](https://firebase.google.com/?hl=pt)
+- [Sass](https://sass-lang.com/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
